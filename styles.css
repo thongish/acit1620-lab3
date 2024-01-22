@@ -69,7 +69,7 @@ ul {
     }
 
 nav {
-    margin-top: -30px;
+    margin-top: -28px;
     padding-right: 1rem;
     margin-bottom: 100%;
     float: left;
@@ -79,6 +79,10 @@ li {
     padding-top: 1rem;
     font-style: bold;
 
+}
+
+h2 {
+    padding-top: 10px;
 }
 
 @media screen and (max-width : 600px) {
