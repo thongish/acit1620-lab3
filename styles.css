@@ -8,6 +8,8 @@ body {
 form {
     border: 1px solid #ccc;
     padding: 1rem;
+    width: 500px;
+    float: left;
 }
 
 input,
@@ -66,13 +68,14 @@ ul {
     }
 
 nav {
+    margin-top: -30px;
     padding-right: 1rem;
     margin-bottom: 100%;
     float: left;
 }
 
 li {
-    padding: 0.5rem;
+    padding-top: 1rem;
     font-style: bold;
 
 }
@@ -91,7 +94,6 @@ li {
     li {
         padding-left: 25px;
         padding-right: 10px;
-    
     }
 
     li:first-child {
