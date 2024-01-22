@@ -30,11 +30,80 @@ form button {
 
 header {
     background-color: teal;
-    color: white;
+    color: black;
     text-align: center;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
 
- 
+img {
+    width: 180px;
+    height: 131px;
+    float: left;
+    padding-right: 1rem;
+}
+
+a {
+    color:teal;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 1rem;
+    margin: 0px;
+    }
+
+nav {
+    padding-right: 1rem;
+    margin-bottom: 100%;
+    float: left;
+}
+
+li {
+    padding: 0.5rem;
+    font-style: bold;
+
+}
+
+@media screen and (max-width : 600px) {
+    ul {
+        display: flex;
+        padding: 10px;
+        position: relative;
+    }
+    nav {
+        float: none;
+        margin: 0;
+    }
+
+    li {
+        padding-left: 25px;
+        padding-right: 10px;
+    
+    }
+
+    li:first-child {
+        border-right: 1px solid;
+        border-color: lightgrey;
+        padding-left: 0;
+
+    }
+    li:last-child {
+        border-left: 1px solid;
+        border-color: lightgrey;
+    }
+}
+
+
