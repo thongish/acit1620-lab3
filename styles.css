@@ -62,6 +62,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgba(0, 128, 128, 0.493);
+}
+
 ul {
     list-style-type: none;
     text-align: right;
